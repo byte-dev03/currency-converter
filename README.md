@@ -84,14 +84,16 @@ convertedAmount = (amount / rate[from]) * rate[to]
 
 ```
 
-project-folder/
+currency-converter/
 │
 ├── index.html      # Main application file
+├── script.js       # Main JavaScript file for functionality
+├── style.css       # File that contains styles of the application
 └── README.md       # Documentation
 
 ```
 
-*(Add `/screenshots` or extra files if you include them later.)*
+<!-- *(Add `/screenshots` or extra files if you include them later.)* -->
 
 ---
 
@@ -105,17 +107,17 @@ The UI follows these principles:
 
 ---
 
-## 📷 Screenshots (Optional)
-Add these when you take screenshots:
-
-```
-
-/screenshots
-- home-mobile.png
-- home-desktop.png
-- conversion-result.png
-
-```
+<!-- ## 📷 Screenshots (Optional) -->
+<!-- Add these when you take screenshots: -->
+<!---->
+<!-- ``` -->
+<!---->
+<!-- /screenshots -->
+<!-- - home-mobile.png -->
+<!-- - home-desktop.png -->
+<!-- - conversion-result.png -->
+<!---->
+<!-- ``` -->
 
 ---
 
@@ -132,11 +134,11 @@ API requires online access.
 ## 🧪 Testing Procedures
 During testing, verify that:
 
-- [ ] API loads successfully  
-- [ ] Dropdown values populate  
+- [x] API loads successfully  
+- [x] Dropdown values populate  
 - [ ] Amount input validates properly  
 - [ ] Conversion is correct  
-- [ ] Swap button works  
+- [x] Swap button works  
 - [ ] App works on mobile, tablet, and desktop  
 - [ ] Error messages appear for invalid inputs  
 
@@ -159,15 +161,15 @@ During testing, verify that:
 ---
 
 ## 👥 Developed By
-**Group #: (Replace)**  
+**Group #: 1**  
 **Course:** IT 208 – Platform Technology  
 **Instructor:** RANDLY B. MALABAD  
 **Semester:** 1st Semester, AY 2025–2026
 
 Roles (sample):
-- Developer / API Integration – Name  
+- Developer / API Integration – Kian Ulep
 - UI/UX Designer – Name  
-- Documentation & Testing – Name
+- Documentation & Testing – Julius Cayaban
 
 ---
 
