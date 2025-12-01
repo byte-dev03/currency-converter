@@ -1,0 +1,36 @@
+
+body {
+    background: linear-gradient(135deg, #e9f0ff, #f4f6f9);
+    min-height: 100vh;
+}
+
+.app-wrapper {
+    max-width: 450px;
+    margin: auto;
+}
+
+.card {
+    border-radius: 16px;
+    border: 1px solid rgba(13, 110, 253, 0.15);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.05);
+}
+
+.spinner {
+    display: none;
+}
+
+.swap-btn {
+    cursor: pointer;
+    color: #0d6efd;
+    transition: 0.2s ease;
+}
+
+.swap-btn:hover {
+    color: #0a58ca;
+    transform: scale(1.1);
+}
+
+.swap-btn:active {
+    transform: scale(0.95);
+}
+
